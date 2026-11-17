@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Wandelclub op maandag</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Wandelclub op maandag.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M112 251c72-46 129-12 197-40s129-64 219-26" stroke-width="11"/><path d="M146 277h348M206 226l27 28m-57-29 29 29m245-64 26 24m-57-16 24 25"/><path d="M390 90l35 35-35 35-35-35z" fill="#edf8fc"/><path d="M390 108v22m0 14v2"/></g>
+</g>
+</svg>

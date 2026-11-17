@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Kleine fietstochten</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Kleine fietstochten.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><circle cx="216" cy="224" r="53" fill="#fff"/><circle cx="426" cy="224" r="53" fill="#fff"/><path d="M216 224l77-89 56 89H216l63-58h73l74 58m-113-89h-42"/><circle cx="293" cy="135" r="11" fill="#edf8fc"/><path d="M130 287h111m134 0h103"/><path d="M477 126h29m-14-14v29"/></g>
+</g>
+</svg>

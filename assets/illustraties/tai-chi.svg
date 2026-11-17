@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Tai Chi</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Tai Chi.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><circle cx="322" cy="83" r="27" fill="#edf8fc"/><path d="M318 116l-25 64 53 30-5 70M293 180l-70 25m72-25-30 63m82-63 65 15m-79-6 44 56M321 121l56 31 44-4"/><path d="M185 280h280M210 293h220"/><path d="M441 90c18 17 27 36 28 57m-20-70 18 13-19 8"/></g>
+</g>
+</svg>

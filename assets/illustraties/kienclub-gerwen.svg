@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Kienclub Gerwen</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Kienclub Gerwen.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><rect x="151" y="75" width="338" height="202" rx="12" fill="#edf8fc"/><path d="M179 110h74m20 0h74m20 0h74m-262 41h74m20 0h74m20 0h74m-262 41h74m20 0h74m20 0h74"/><circle cx="216" cy="110" r="17" fill="#fff"/><circle cx="330" cy="151" r="17" fill="#fff"/><circle cx="444" cy="192" r="17" fill="#fff"/><circle cx="240" cy="273" r="25" fill="#fff"/><circle cx="307" cy="273" r="25" fill="#fff"/></g>
+</g>
+</svg>

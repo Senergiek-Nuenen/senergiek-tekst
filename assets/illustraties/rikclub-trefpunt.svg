@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Rikclub Trefpunt</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Rikclub Trefpunt.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M166 125h306v133H166z" fill="#edf8fc"/><path d="M190 148h74v94h-74zm92 0h74v94h-74zm92 0h74v94h-74z" fill="#fff"/><path d="M215 180l12 20 12-20zm93 0h24m-12-12v24m90-6h22m-11-11v22"/><path d="M320 258v25m-99 0h198"/></g>
+</g>
+</svg>

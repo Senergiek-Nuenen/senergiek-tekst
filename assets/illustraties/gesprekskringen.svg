@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Gesprekskringen</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Gesprekskringen.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><circle cx="320" cy="178" r="26" fill="#edf8fc"/><path d="M320 152v-63m25 89h93m-118 26v66m-25-66h-93"/><path d="M275 78h90v54h-90zm133 75h90v54h-90zm-133 91h90v54h-90zm-133-91h90v54h-90z" fill="#fff"/><path d="M296 100h48m-26 0v15m111 56h44m-22 0v14m-111 95h42m-21 0v14m-111-109h42m-21 0v14"/></g>
+</g>
+</svg>

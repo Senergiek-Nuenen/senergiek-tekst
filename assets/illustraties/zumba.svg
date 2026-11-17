@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Zumba</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Zumba.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M173 244l34-56 65 18 35 63-78-4z" fill="#edf8fc"/><path d="M294 208l62-20 42 33-20 43-61-6z" fill="#fff"/><path d="M359 112c31-35 68-28 80-5m-14 37c26-19 58-8 69 15M182 112c20-28 47-31 68-12m-45 49c19-20 43-17 56 3"/><circle cx="330" cy="92" r="8" fill="#8fc7df"/><circle cx="453" cy="207" r="8" fill="#8fc7df"/></g>
+</g>
+</svg>

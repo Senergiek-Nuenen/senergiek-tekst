@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Jeu de Bouleclub</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Jeu de Bouleclub.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M121 250h398M142 276h344" stroke-width="10"/><circle cx="236" cy="203" r="39" fill="#edf8fc"/><circle cx="333" cy="221" r="39" fill="#fff"/><circle cx="419" cy="188" r="39" fill="#edf8fc"/><circle cx="324" cy="159" r="12" fill="#8fc7df"/><path d="M203 165l-13-25m163 42 19-25m64-10 24-20"/></g>
+</g>
+</svg>

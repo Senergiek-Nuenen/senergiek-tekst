@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Volksdansgroep ’t Klooster</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Volksdansgroep Trefpunt.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><circle cx="263" cy="91" r="21" fill="#edf8fc"/><circle cx="378" cy="91" r="21" fill="#edf8fc"/><path d="M263 119v73m0-52-48 27m48-27 44 25m71-46v73m0-52-48 27m48-27 45 25"/><path d="M228 192l35-8 37 8-26 64h-70zm111 0 33-8 39 8-25 64h-71z" fill="#dff2fa"/><path d="M188 266h284"/></g>
+</g>
+</svg>

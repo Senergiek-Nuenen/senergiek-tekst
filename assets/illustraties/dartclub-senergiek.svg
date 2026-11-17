@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Dartclub Senergiek</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Dartclub Senergiek.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><circle cx="319" cy="181" r="106" fill="#edf8fc"/><circle cx="319" cy="181" r="73" fill="#fff"/><circle cx="319" cy="181" r="37" fill="#edf8fc"/><circle cx="319" cy="181" r="12" fill="#fff"/><path d="M170 87l118 82m-123-94 15-15m-7 34 19-21m146 107 107-95m-12-17 23 25m-35-6 22-19"/></g>
+</g>
+</svg>

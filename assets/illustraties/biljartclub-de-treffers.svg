@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Biljartclub De Treffers</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Biljartclub De Treffers.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><rect x="108" y="178" width="424" height="92" rx="12" fill="#edf8fc"/><path d="M128 210h384M128 246h384"/><circle cx="180" cy="224" r="20" fill="#fff"/><circle cx="260" cy="224" r="20" fill="#cfe9f5"/><circle cx="338" cy="224" r="20" fill="#fff"/><path d="M214 82L450 168M194 70l-18 34"/></g>
+</g>
+</svg>

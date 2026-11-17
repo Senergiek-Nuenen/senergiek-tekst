@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Grote fietstochten</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Grote fietstochten.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><circle cx="205" cy="233" r="50"/><circle cx="428" cy="233" r="50"/><path d="M205 233l78-88 68 88H205l65-62h77l81 62m-107-88h-44"/><circle cx="283" cy="145" r="11" fill="#edf8fc"/><path d="M115 277h95m224 0h94M142 103h68m-34-34v68M480 106l31 0m-15-15v31"/></g>
+</g>
+</svg>

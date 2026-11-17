@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/icons/icon-512.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+<script src="pwa.js" defer></script>
+<title>Activiteiten | Senergiek Nuenen</title>
+<style>
+:root{--ink:#19364d;--muted:#5d7383;--green:#4b9bc8;--green-dark:#2879aa;--sage:#eaf6fc;--cream:#f6fbfe;--line:#dceaf2;--white:#fff;--gold:#79bfe5}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.55 "Segoe UI",Arial,sans-serif}header{background:#fff;border-bottom:1px solid var(--line)}.nav{max-width:1240px;margin:auto;padding:22px 28px;display:flex;justify-content:space-between;align-items:center}.brand{font-size:1.25rem;font-weight:700;letter-spacing:.02em;color:var(--green-dark)}.brand small{display:block;color:var(--muted);font-size:.76rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase}.nav a{color:var(--green-dark);text-decoration:none;margin-left:24px;font-size:.95rem}.hero{max-width:1240px;margin:auto;padding:56px 28px 32px}.eyebrow{color:var(--green);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.76rem}h1{font:500 clamp(2rem,4vw,3rem)/1.15 Georgia,serif;margin:10px 0 14px;color:var(--ink)}.intro{max-width:680px;color:var(--muted);font-size:1.08rem}.tools{max-width:1240px;margin:14px auto 28px;padding:0 28px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}.search{min-width:250px;flex:1;max-width:400px;padding:12px 16px;border:1px solid #d8dfd8;border-radius:8px;font:inherit;background:white}.filters{display:flex;gap:8px;flex-wrap:wrap}.filter{border:1px solid #d8dfd8;border-radius:99px;padding:8px 14px;background:#fff;color:var(--green-dark);font:inherit;cursor:pointer}.filter.active,.filter:hover{background:var(--green);border-color:var(--green);color:#fff}.count{color:var(--muted);font-size:.9rem;margin-left:auto}.grid{max-width:1240px;margin:auto;padding:0 28px 64px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 16px #1a5d8010;transition:transform .18s,box-shadow .18s}.card:hover{transform:translateY(-3px);box-shadow:0 10px 26px #1a5d8018}.photo{height:176px;width:100%;object-fit:cover;background:var(--sage)}.cardbody{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}.tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.09em;color:var(--green);font-weight:700}.card h2{font:600 1.2rem/1.3 Georgia,serif;margin:7px 0 8px}.card p{color:var(--muted);font-size:.93rem;margin:0 0 18px;flex:1}.button{display:inline-flex;align-items:center;justify-content:center;align-self:flex-start;padding:9px 14px;border-radius:6px;background:var(--green);color:white;text-decoration:none;font-size:.9rem;font-weight:600}.button:hover{background:var(--green-dark)}.empty{display:none;grid-column:1/-1;text-align:center;padding:28px 20px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:12px}footer{background:#e9efea;padding:28px;text-align:center;color:var(--muted)}footer a{color:var(--green-dark)}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.nav{padding:18px 22px}.hero{padding:42px 22px 24px}.tools{padding:0 22px}.grid{padding-left:22px;padding-right:22px}}
+@media(max-width:560px){.grid{grid-template-columns:1fr;gap:16px}.photo{height:200px}.nav a{margin-left:12px;font-size:.88rem}.count{width:100%;margin-left:0}}
+.status{display:inline-block;align-self:flex-start;margin:0 0 10px;padding:4px 11px;border:1px solid #b7dced;border-radius:999px;background:#eaf6fc;color:#225d7b;font-size:.82rem;font-weight:750;letter-spacing:.02em}
+</style></head>
+<body><header><nav class="nav"><div class="brand">Senergiek <small>Nuenen, Gerwen en Nederwetten</small></div><div><a href="index.html">← Begin</a><a href="#activiteiten">Activiteiten</a><a href="#contact">Contact</a></div></nav></header>
+<main><section class="hero"><div class="eyebrow">Samen actief in de buurt</div><h1>Ontdek wat bij u past</h1><p class="intro">Bij Senergiek is er van alles te doen. Van bewegen en muziek tot kaarten, creativiteit en samen eropuit. Bekijk het aanbod en kies een activiteit die u aanspreekt.</p></section>
+<div class="tools"><input id="search" class="search" type="search" placeholder="Zoek een activiteit…" aria-label="Zoek een activiteit"><div class="filters" id="filters"></div><span class="count" id="count"></span></div>
+<section id="activiteiten" class="grid" aria-label="Activiteiten"></section></main>
+<footer id="contact">Meer weten of meedoen? <a href="mailto:info@senergiek-nuenen.nl">Neem contact op met Senergiek</a>.</footer>
+<script>
+const data=[
+['Biljartclub De Treffers','Biljarten','Kom samen biljarten, oefen uw spel en ontmoet andere liefhebbers.'],['Dames Biljartclub Pomeranses','Biljarten','Een gezellige biljartclub voor dames, met ruimte voor spel en ontmoeting.'],
+['Country Line Dance','Bewegen','Dans mee op countrymuziek en werk tegelijk aan conditie en coördinatie.'],['Tai Chi','Bewegen','Kom tot rust en beweeg soepel met aandacht voor houding en ademhaling.'],['Yoga','Bewegen','Werk op uw eigen tempo aan ontspanning, balans en lenigheid.'],['Zumba','Bewegen','Beweeg op vrolijke muziek tijdens een energieke groepsles.'],['Volksdansgroep ’t Klooster','Bewegen','Leer dansen uit verschillende landen in een gezellige groep.'],['Gymnastiek in Nuenen en Gerwen','Bewegen','Houd uw lichaam soepel en sterk met laagdrempelige groepsoefeningen.'],['Dynamic Tennis','Bewegen','Speel een toegankelijke en actieve vorm van tennis in groepsverband. De oude gymzaal wordt afgebroken. Een nieuwe locatie is nog niet bekend. Zodra er meer informatie is, volgt bericht.'],['Tafeltennis','Bewegen','Speel een potje tafeltennis en geniet van sportief samenzijn.'],['Wandelclub','Bewegen','De maandagwandelclub is gestopt. Bekijk de wandelgroep op woensdagochtend.'],['Wandelen op woensdagochtend','Bewegen','Trek er samen op uit voor een ontspannen wandeling in de omgeving.'],
+['Kleine fietstochten','Fietsen','Fiets mee op een ontspannen tocht door Nuenen en de omliggende natuur.'],['Grote fietstochten','Fietsen','Ontdek de omgeving op de fiets tijdens een langere gezamenlijke tocht.'],
+['Conversatie Engels','Taal','Oefen Engels in gesprek met anderen en houd uw taalvaardigheid bij.'],['Conversatie Duits','Taal','Praat gezellig mee en oefen uw Duits in een ontspannen sfeer.'],
+['Bridgeclub','Kaarten','Speel bridge, leer van elkaar en ontmoet andere kaartliefhebbers.'],['Jasclub De Oude Vrienden','Kaarten','Schuif aan voor een gezellig potje jas met vertrouwde en nieuwe gezichten.'],['Jokerclub voor dames','Kaarten','Speel joker in een gezellige club voor dames.'],['Rikclub Gerwen','Kaarten','Rik mee in Gerwen en geniet van een middag of avond vol kaartspel.'],['Rikclub Trefpunt','Kaarten','Ontmoet andere rikliefhebbers en speel mee bij het Trefpunt.'],['Kaartclub De Koppelaar','Kaarten','Kaart samen in De Koppelaar in Nederwetten.'],
+['Jeu de Bouleclub','Bewegen','Speel jeu de boules buiten en geniet van beweging en gezelligheid.'],['Sjoelclub de Treffers','Overig','Kom sjoelen, verbeter uw score en ontmoet andere clubleden.'],['CreaBea','Creatief','Ga creatief aan de slag en wissel ideeën uit met elkaar.'],['Quilten','Creatief','Werk samen aan kleurrijke quiltprojecten en deel technieken en inspiratie.'],['Dartclub Senergiek','Overig','Gooi een pijltje mee en beleef een gezellige tijd met de dartclub.'],['Fotoclub InFocus','Creatief','Deel uw interesse in fotografie en bekijk de wereld door een andere lens.'],['Gesprekskringen','Samen','Ga met elkaar in gesprek over onderwerpen die ertoe doen.'],['Kienclub Gerwen','Overig','Speel mee met kien in Gerwen en maak er samen een gezellige bijeenkomst van.'],['Koor De Vrolijke Samenzang','Muziek','Zing samen een gevarieerd repertoire in een opgewekte sfeer.'],['Mondharmonica-orkest De Luchthappers','Muziek','Maak samen muziek en luister naar het karakteristieke geluid van de mondharmonica.'],['Reizen','Samen','Ga mee op ontdekking tijdens een van de gezamenlijke reizen van Senergiek.'],['Restaurantgroep Samen Dineren','Samen','Ontmoet elkaar aan tafel en dineer samen in wisselende restaurants.'],['Lezingengroep','Samen','Luister naar interessante lezingen en ontdek nieuwe onderwerpen.'],['Museumgroep 1','Samen','Bezoek samen musea en bekijk kunst en geschiedenis met andere leden.'],['Museumgroep 2','Samen','Een nieuwe museumgroep in oprichting. Houd het aanbod in de gaten.'],['Leesclub','Lezen','Lees een boek en bespreek uw indrukken met andere lezers.'],['Schrijfatelier','Creatief','Schrijf, deel ideeën en geef uw verhalen de ruimte.']
+];
+const categoryGroups={
+'Biljarten en kaarten':['Biljartclub De Treffers','Dames Biljartclub Pomeranses','Bridgeclub','Jasclub De Oude Vrienden','Jokerclub voor dames','Rikclub Gerwen','Rikclub Trefpunt','Kaartclub De Koppelaar'],
+'Bewegen':['Country Line Dance','Tai Chi','Yoga','Zumba','Volksdansgroep ’t Klooster','Gymnastiek in Nuenen en Gerwen','Dynamic Tennis','Tafeltennis','Wandelclub','Wandelen op woensdagochtend','Kleine fietstochten','Grote fietstochten'],
+'Taal':['Conversatie Engels','Conversatie Duits'],
+'Muziek en cultuur':['Koor De Vrolijke Samenzang','Mondharmonica-orkest De Luchthappers','Museumgroep 1','Museumgroep 2','Lezingengroep','Leesclub','Schrijfatelier'],
+'Overig':['Jeu de Bouleclub','Sjoelclub de Treffers','CreaBea','Quilten','Dartclub Senergiek','Fotoclub InFocus','Gesprekskringen','Kienclub Gerwen','Reizen','Restaurantgroep Samen Dineren']
+};
+for(const [category,names] of Object.entries(categoryGroups))for(const name of names){const item=data.find(d=>d[0]===name);if(item)item[1]=category}
+const filters=['Alles','Biljarten en kaarten','Bewegen','Taal','Muziek en cultuur','Overig'];let active='Alles';
+const illustrationFiles={
+'Biljartclub De Treffers':'biljartclub-de-treffers.svg','Dames Biljartclub Pomeranses':'dames-biljartclub-pomeranses.svg','Country Line Dance':'country-line-dance.svg','Tai Chi':'tai-chi.svg','Yoga':'yoga.svg','Zumba':'zumba.svg','Volksdansgroep ’t Klooster':'volksdansgroep-trefpunt.svg','Gymnastiek in Nuenen en Gerwen':'gymnastiek-nuenen-gerwen.svg','Dynamic Tennis':'dynamic-tennis.svg','Tafeltennis':'tafeltennis.svg','Wandelclub':'wandelclub-maandag.svg','Wandelen op woensdagochtend':'wandelen-woensdagochtend.svg','Kleine fietstochten':'kleine-fietstochten.svg','Grote fietstochten':'grote-fietstochten.svg','Conversatie Engels':'conversatie-engels.svg','Conversatie Duits':'conversatie-duits.svg','Bridgeclub':'bridgeclub.svg','Jasclub De Oude Vrienden':'jasclub-de-oude-vrienden.svg','Jokerclub voor dames':'jokerclub-voor-dames.svg','Rikclub Gerwen':'rikclub-gerwen.svg','Rikclub Trefpunt':'rikclub-trefpunt.svg','Kaartclub De Koppelaar':'kaartclub-de-koppelaar.svg','Jeu de Bouleclub':'jeu-de-bouleclub.svg','Sjoelclub de Treffers':'sjoelclub-de-treffers.svg','CreaBea':'creabea.svg','Quilten':'quilten.svg','Dartclub Senergiek':'dartclub-senergiek.svg','Fotoclub InFocus':'fotoclub-infocus.svg','Gesprekskringen':'gesprekskringen.svg','Kienclub Gerwen':'kienclub-gerwen.svg','Koor De Vrolijke Samenzang':'koor-de-vrolijke-samenzang.svg','Mondharmonica-orkest De Luchthappers':'mondharmonica-orkest-de-luchthappers.svg','Reizen':'reizen.svg','Restaurantgroep Samen Dineren':'restaurantgroep-samen-dineren.svg','Lezingengroep':'lezingengroep.svg','Museumgroep 1':'museumgroep-1.svg','Museumgroep 2':'museumgroep-2.svg','Leesclub':'leesclub.svg','Schrijfatelier':'schrijfatelier.svg'
+};
+const activityLinks={
+'Biljartclub De Treffers':'https://www.senergiek-nuenen.nl/activiteiten/biljartclub-de-treffers',
+'Dames Biljartclub Pomeranses':'https://www.senergiek-nuenen.nl/activiteiten/fietstochten/dames-biljartclub-pomeranses',
+'Bridgeclub':'https://www.senergiek-nuenen.nl/activiteiten/kaart-clubs/bridgeclub',
+'Jasclub De Oude Vrienden':'https://www.senergiek-nuenen.nl/activiteiten/kaart-clubs/jasclub-de-oude-vrienden',
+'Jokerclub voor dames':'https://www.senergiek-nuenen.nl/activiteiten/kaart-clubs/jokerclub-voor-dames-1',
+'Rikclub Gerwen':'https://www.senergiek-nuenen.nl/activiteiten-oud-vervangen-op-12-2-2026/kaart-clubs/rikclub-gerwen',
+'Rikclub Trefpunt':'https://www.senergiek-nuenen.nl/activiteiten/kaart-clubs/rikclub-trefpunt',
+'Kaartclub De Koppelaar':'https://www.senergiek-nuenen.nl/activiteiten/kaart-clubs/jasclub-de-oude-vrienden/kaartclub-de-koppelaar',
+'Country Line Dance':'https://www.senergiek-nuenen.nl/activiteiten/country-en-line-dance',
+'Tai Chi':'https://www.senergiek-nuenen.nl/activiteiten/tai-chi',
+'Yoga':'https://www.senergiek-nuenen.nl/activiteiten/yoga',
+'Zumba':'https://www.senergiek-nuenen.nl/activiteiten/zumba-activiteit',
+'Volksdansgroep ’t Klooster':'https://www.senergiek-nuenen.nl/activiteiten/volksdansgroep-trefpunt',
+'Gymnastiek in Nuenen en Gerwen':'https://www.senergiek-nuenen.nl/activiteiten/gym-in-nuenen-en-gerwen-voor-ouderen',
+'Dynamic Tennis':'https://www.senergiek-nuenen.nl/activiteiten-02/dynamic-tennis',
+'Tafeltennis':'https://www.senergiek-nuenen.nl/activiteiten/tafeltennis',
+'Wandelclub':'https://www.senergiek-nuenen.nl/activiteiten/wandelclub',
+'Wandelen op woensdagochtend':'https://www.senergiek-nuenen.nl/activiteiten/wandelclub-woensdag-morgen',
+'Kleine fietstochten':'https://www.senergiek-nuenen.nl/fietstochten-groot-en-klein',
+'Grote fietstochten':'https://www.senergiek-nuenen.nl/fietstochten-groot-en-klein',
+'Conversatie Engels':'https://www.senergiek-nuenen.nl/activiteiten/engelse-conversatie',
+'Conversatie Duits':'https://www.senergiek-nuenen.nl/activiteiten/duitse-conversatie',
+'Bridgeclub':'https://www.senergiek-nuenen.nl/activiteiten/kaart-clubs/bridgeclub',
+'Jeu de Bouleclub':'https://www.senergiek-nuenen.nl/activiteiten/jeu-de-boules-koersbal-club',
+'CreaBea':'https://www.senergiek-nuenen.nl/activiteiten/creabea',
+'Quilten':'https://www.senergiek-nuenen.nl/activiteiten/quilten',
+'Dartclub Senergiek':'https://www.senergiek-nuenen.nl/activiteiten/dart-club-senergiek',
+'Fotoclub InFocus':'https://www.senergiek-nuenen.nl/activiteiten-02/fotoclub-infocus',
+'Gesprekskringen':'https://www.senergiek-nuenen.nl/activiteiten-02/fietstochten/gesprekskringen',
+'Kienclub Gerwen':'https://www.senergiek-nuenen.nl/activiteiten/leesclubs/kienclub-gerwen',
+'Koor De Vrolijke Samenzang':'https://www.senergiek-nuenen.nl/activiteiten-02/de-vrolijke-samenzang',
+'Mondharmonica-orkest De Luchthappers':'https://www.senergiek-nuenen.nl/activiteiten/mondharmonica-orkest-de-luchthappers',
+'Reizen':'https://www.senergiek-nuenen.nl/activiteiten/reizen-aanmeldformulier',
+'Restaurantgroep Samen Dineren':'https://www.senergiek-nuenen.nl/activiteiten/restaurantgroep-samen-dineren',
+'Lezingengroep':'https://www.senergiek-nuenen.nl/activiteiten/leesclubs/lezingengroepgroep',
+'Museumgroep 1':'https://www.senergiek-nuenen.nl/activiteiten/museumgroep-1',
+'Leesclub':'https://www.senergiek-nuenen.nl/activiteiten-02/fietstochten/leesclubs',
+'Schrijfatelier':'https://www.senergiek-nuenen.nl/activiteiten/het-schrijfatelier/schrijfatelier'
+};
+const clean=s=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+const container=document.querySelector('#activiteiten');
+function render(){let q=clean(document.querySelector('#search').value);let shown=data.filter(d=>(active==='Alles'||d[1]===active)&&clean(d[0]+' '+d[1]+' '+d[2]).includes(q));container.innerHTML=shown.length?shown.map(d=>{let cat=d[1],image=illustrationFiles[d[0]];let noInfo=['Sjoelclub de Treffers','Museumgroep 2'].includes(d[0]);let infoLink=activityLinks[d[0]];let action=noInfo?'':infoLink?`<a class="button" href="${infoLink}" target="_blank" rel="noopener">Meer informatie</a>`:'';let status=['Wandelclub','Jokerclub voor dames'].includes(d[0])?'Gestopt':d[0]==='Grote fietstochten'?'Tijdelijk gestopt':d[0]==='Dynamic Tennis'?'Tijdelijk gestopt':d[0]==='Museumgroep 2'?'In oprichting':'';return `<article class="card"><img class="photo" src="assets/illustraties/${image}" alt="Illustratie: ${d[0]}" loading="lazy"><div class="cardbody"><span class="tag">${cat}</span><h2>${d[0]}</h2>${status?`<span class="status">${status}</span>`:''}<p>${d[2]}</p>${action}</div></article>`}).join(''):'<p class="empty" role="status">Geen activiteiten gevonden. Probeer een andere zoekterm of kies een andere categorie.</p>';document.querySelector('#count').textContent=`${shown.length} activiteiten`;}
+document.querySelector('#filters').innerHTML=filters.map((f,i)=>`<button class="filter ${i===0?'active':''}" type="button" data-filter="${f}">${f}</button>`).join('');document.querySelector('#filters').addEventListener('click',e=>{let b=e.target.closest('button');if(!b)return;active=b.dataset.filter;document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));render()});document.querySelector('#search').addEventListener('input',render);render();
+</script></body></html>
+
+
+

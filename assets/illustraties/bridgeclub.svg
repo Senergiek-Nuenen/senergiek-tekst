@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Bridgeclub</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Bridgeclub.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><rect x="172" y="67" width="118" height="168" rx="12" fill="#fff" transform="rotate(-10 172 67)"/><rect x="258" y="97" width="118" height="168" rx="12" fill="#edf8fc" transform="rotate(8 258 97)"/><rect x="347" y="69" width="118" height="168" rx="12" fill="#fff" transform="rotate(14 347 69)"/><path d="M218 111c-19-23-48 4 0 36 48-32 19-59 0-36zm100 40 22 37 22-37-22-24zM397 112l20 20-20 20-20-20z"/></g>
+</g>
+</svg>

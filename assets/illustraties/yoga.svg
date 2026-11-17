@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Yoga</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Yoga.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M137 264h366" stroke-width="11"/><circle cx="320" cy="99" r="25" fill="#edf8fc"/><path d="M315 127l-34 54-55 34m88-83 48 57 62 19m-143-27 42 42-38 41m38-41 59 40"/><path d="M226 252c56 18 112 18 168 0"/></g>
+</g>
+</svg>

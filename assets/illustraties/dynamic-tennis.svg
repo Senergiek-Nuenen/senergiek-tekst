@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Dynamic Tennis</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Dynamic Tennis.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M180 91l120 127m-96-148L168 111m110 96 29-27"/><ellipse cx="232" cy="149" rx="55" ry="72" transform="rotate(-43 232 149)" fill="#edf8fc"/><path d="M195 100l72 76m-88-58 75 78m-53-112 76 78"/><circle cx="402" cy="211" r="26" fill="#fff"/><path d="M352 261h112m-56-24v48"/></g>
+</g>
+</svg>

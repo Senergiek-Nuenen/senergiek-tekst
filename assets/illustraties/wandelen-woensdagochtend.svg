@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Wandelen op woensdagochtend</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Wandelen op woensdagochtend.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><circle cx="456" cy="83" r="30" fill="#edf8fc"/><path d="M112 239l100-108 69 69 63-82 119 121M112 263h420"/><path d="M225 263c45-34 93-27 137-1s91 33 139 2" stroke-width="9"/><path d="M225 211l24 25-22 20-29-23zm82 29 23 19-21 23-28-19z" fill="#fff"/></g>
+</g>
+</svg>

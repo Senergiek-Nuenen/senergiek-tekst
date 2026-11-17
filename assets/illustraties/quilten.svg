@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Quilten</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Quilten.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M188 82h264v196H188z" fill="#fff"/><path d="M188 147h264m-264 66h264M276 82v196m88-196v196"/><path d="M188 82l88 65-88 66 88 65m176-196-88 65 88 66-88 65"/><path d="M149 112l44 45m-44-31 30-30m234 159 58-58m-45 72 28-28"/></g>
+</g>
+</svg>

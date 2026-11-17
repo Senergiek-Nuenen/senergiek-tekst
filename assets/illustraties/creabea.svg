@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">CreaBea</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij CreaBea.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M155 227c30-65 77-91 136-77-13 61-62 91-136 77z" fill="#edf8fc"/><circle cx="191" cy="193" r="7" fill="#8fc7df"/><circle cx="214" cy="174" r="7" fill="#8fc7df"/><circle cx="237" cy="165" r="7" fill="#8fc7df"/><path d="M365 89l35 21-91 146-35-21z" fill="#fff"/><path d="M309 256l-24 14 2-28m104-133 20 12"/><path d="M415 183l72 72m-59-85 72 72m-85-59 72 72"/></g>
+</g>
+</svg>

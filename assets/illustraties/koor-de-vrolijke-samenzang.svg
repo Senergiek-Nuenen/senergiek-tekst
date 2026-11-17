@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Koor De Vrolijke Samenzang</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Koor De Vrolijke Samenzang.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M178 107h114v146H178z" fill="#fff"/><path d="M201 145h68m-68 26h68m-68 26h51m-51 26h68"/><path d="M364 83c26 16 26 39 0 55m30-75c44 27 44 67 0 94m31-112c62 38 62 94 0 132"/><circle cx="336" cy="199" r="10" fill="#8fc7df"/><path d="M335 199v59m0 0 45-13v-53"/></g>
+</g>
+</svg>

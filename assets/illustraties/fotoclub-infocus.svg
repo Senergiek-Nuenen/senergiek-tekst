@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Fotoclub InFocus</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Fotoclub InFocus.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M166 132h308v142H166z" fill="#edf8fc"/><path d="M213 132l24-31h87l24 31"/><circle cx="320" cy="202" r="58" fill="#fff"/><circle cx="320" cy="202" r="37" fill="#dff2fa"/><circle cx="320" cy="202" r="15" fill="#fff"/><path d="M189 158h18m-18 22h18m234-22h18m-18 22h18M210 244v15m220-15v15"/></g>
+</g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Tafeltennis</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Tafeltennis.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M142 190h356v55H142z" fill="#edf8fc"/><path d="M142 245v34m356-34v34m-178-55v55m-22-55v55"/><path d="M208 103l86 68-26 32-86-68z" fill="#fff"/><path d="M196 114l85 68"/><path d="M361 104l82 66-26 32-82-66z" fill="#edf8fc"/><circle cx="334" cy="129" r="12" fill="#8fc7df"/></g>
+</g>
+</svg>

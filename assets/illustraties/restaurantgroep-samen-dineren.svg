@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Restaurantgroep Samen Dineren</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Restaurantgroep Samen Dineren.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M175 212h290v26H175z" fill="#edf8fc"/><path d="M205 238v48m230-48v48"/><ellipse cx="320" cy="180" rx="77" ry="39" fill="#fff"/><ellipse cx="320" cy="180" rx="54" ry="23"/><path d="M215 111v63m-14-63v38m28-38v38m-14 0v55m199-93v93m-18-93v41c0 17 36 17 36 0v-41"/></g>
+</g>
+</svg>

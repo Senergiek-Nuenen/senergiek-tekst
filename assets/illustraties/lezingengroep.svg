@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Lezingengroep</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Lezingengroep.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M172 135h168v122H172z" fill="#edf8fc"/><path d="M195 164h119m-119 27h88m-88 27h108"/><path d="M389 104v106m0-106c40 0 61 23 61 54m-61-54c-40 0-61 23-61 54m-5 99h130m-65-43v43"/><path d="M368 82h42"/></g>
+</g>
+</svg>

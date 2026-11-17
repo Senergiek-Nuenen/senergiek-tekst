@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Rikclub Gerwen</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Rikclub Gerwen.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><rect x="183" y="87" width="116" height="168" rx="10" fill="#edf8fc" transform="rotate(-8 183 87)"/><rect x="287" y="76" width="116" height="168" rx="10" fill="#fff"/><rect x="382" y="94" width="80" height="145" rx="10" fill="#edf8fc" transform="rotate(10 382 94)"/><path d="M225 130l18 30 18-30zm119 30h22m-11-11v22m52 38h20m-10-10v20"/><path d="M194 276h256"/></g>
+</g>
+</svg>

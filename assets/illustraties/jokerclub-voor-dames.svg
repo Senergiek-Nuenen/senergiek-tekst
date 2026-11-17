@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Jokerclub voor dames</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Jokerclub voor dames.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M207 89h225v174H207z" fill="#edf8fc"/><path d="M248 89v174m143-174v174"/><path d="M264 139c15-23 40-23 55 0-15 22-40 22-55 0zm66 73c15-23 40-23 55 0-15 22-40 22-55 0z"/><path d="M320 117v28m0 0-17 16m17-16 17 16m-53 58 16-15m61 0 17 15"/></g>
+</g>
+</svg>

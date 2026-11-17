@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Kaartclub De Koppelaar</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Kaartclub De Koppelaar.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><circle cx="273" cy="178" r="65" fill="#edf8fc"/><circle cx="367" cy="178" r="65" fill="#fff"/><path d="M318 131c-27 30-27 64 0 94 27-30 27-64 0-94z" fill="#dff2fa"/><rect x="169" y="79" width="70" height="103" rx="8" fill="#fff" transform="rotate(-12 169 79)"/><rect x="405" y="198" width="70" height="103" rx="8" fill="#edf8fc" transform="rotate(12 405 198)"/><path d="M194 112l15 20 15-20zm220 123h26"/></g>
+</g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Country Line Dance</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Country Line Dance.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M170 248h82l42-54-40-25-39 40h-54z" fill="#edf8fc"/><path d="M326 248h85l35-49-42-28-38 41h-54z" fill="#fff"/><path d="M213 209l-27-48m188 51 29-43"/><path d="M163 257h133m20 0h143"/><path d="M182 157l-12-22m216 24 14-24"/></g>
+</g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Museumgroep 1</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Museumgroep 1.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M159 102h322v178H159z" fill="#edf8fc"/><path d="M184 128h115v124H184z" fill="#fff"/><path d="M204 228l34-58 26 27 21-35"/><path d="M348 190h92m-92 20h92m-92 20h92"/><path d="M326 280v-43h16v43m113 0v-43h16v43"/></g>
+</g>
+</svg>

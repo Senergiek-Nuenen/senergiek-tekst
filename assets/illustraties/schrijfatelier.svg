@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Schrijfatelier</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Schrijfatelier.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M183 106h235v168H183z" fill="#fff"/><path d="M215 149h171m-171 38h171m-171 38h126"/><path d="M343 102l103 103-28 28-103-103z" fill="#edf8fc"/><path d="M315 130l-14-39 41 11m76 76 27-27"/><path d="M426 237l-14 35 35-14"/></g>
+</g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Reizen</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Reizen.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><rect x="205" y="115" width="230" height="159" rx="22" fill="#edf8fc"/><path d="M273 115V87c0-21 14-34 34-34h26c20 0 34 13 34 34v28m-94 0V91m94 0v24"/><path d="M248 162h144v79H248z" fill="#fff"/><path d="M274 211c21-30 43-30 63-3s40 18 60-14m-116 23 16-6-2-16"/></g>
+</g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Leesclub</title>
+<desc id="desc">Lichtblauwe lijnillustratie bij Leesclub.</desc>
+<rect width="640" height="360" fill="#ffffff"/>
+<g fill="none" stroke="#5798b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<g><path d="M320 111c-59-31-111-30-159-14v150c48-16 100-17 159 14zm0 0c59-31 111-30 159-14v150c-48-16-100-17-159 14z" fill="#edf8fc"/><path d="M320 111v150m-124-122c37-9 72-5 101 8m-101 22c37-9 72-5 101 8m67-30c37-13 70-17 101-8m-101 38c37-13 70-17 101-8"/><path d="M463 95h28v54h-28z" fill="#fff"/></g>
+</g>
+</svg>
