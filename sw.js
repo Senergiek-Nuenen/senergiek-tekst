@@ -1,4 +1,4 @@
-const CACHE_NAME = 'senergiek-activiteiten-v2';
+const CACHE_NAME = 'senergiek-activiteiten-v3';
 const CACHE_PREFIX = 'senergiek-activiteiten-';
 const NETWORK_TIMEOUT_MS = 4000;
 

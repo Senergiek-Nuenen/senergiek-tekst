@@ -14,7 +14,8 @@ if ('serviceWorker' in navigator) {
 
 const internetMessages = {
   agenda: 'Voor Agenda is een internetverbinding nodig. Schakel internet in en probeer het opnieuw.',
-  website: 'Voor de Senergiek-website is een internetverbinding nodig. Schakel internet in en probeer het opnieuw.'
+  website: 'Voor de Senergiek-website is een internetverbinding nodig. Schakel internet in en probeer het opnieuw.',
+  activity: 'Voor meer informatie over deze activiteit is een internetverbinding nodig.'
 };
 
 document.addEventListener('click', (event) => {
